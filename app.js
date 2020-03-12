@@ -22,6 +22,10 @@ app.listen("8081", "127.0.0.1", function() {
 });
 
 //listener
+<<<<<<< HEAD
+app.listen(process.env.PORT, process.env.IP, function() {
+=======
 app.listen(process.env.PORT, process.emv.IP, function() {
+>>>>>>> 84adf7c99ba0883e92b75eddc744baac26ba75dd
 	console.log("Running Express Server . . .");
 });
